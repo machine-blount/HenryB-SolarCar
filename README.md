@@ -30,7 +30,7 @@ A recurring issue we would have as a team was that wheel adapters would shift, p
 <img src="https://github.com/user-attachments/assets/32ac9458-eb37-4908-8ee9-f1f4219c0748" width="300">
 <img src="https://github.com/user-attachments/assets/3f7fefa1-f179-4cf6-a2c9-149eceacddd0" width="300">
 
-first version and prototype of the motor mount
+First version and prototype of the motor mount
 
 The final design had 2 main parts allowing the motor to be moved in the x and y direction to find the best alignment with the driven gear. This solution was ideal since it allowed us to just reset the mount positioning if any changes were made to the part of the car it was fixed to or the axle that the driven gear was attached to. I then sent these files to be water-jet out of metal for free. Because the only available material was ¼” steel I made the motor mount as lightweight as possible by removing as much metal as possible while keeping the mount strong. This is why the final design looks like a skeleton.  
 
