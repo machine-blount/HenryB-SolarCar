@@ -11,15 +11,15 @@ Aux-kit wasn't ever essential to the cars functionality but it was an exercise i
 
 The first version had many issues and was designed as a Pi HAT stackup where the bottom board was power management so the system could run off of a smaller 12v battery. The top was the controller which connected to other expansion boards for turn signal control and brake pedal detection. 
 
-<img src="https://github.com/user-attachments/assets/4137936c-6702-4bb2-91b8-517de88e96bf" width="200">
+<img src="https://github.com/user-attachments/assets/4137936c-6702-4bb2-91b8-517de88e96bf" width="300">
 
 I had endless issues with monitoring everything on the car and because of this the software was inefficient. I realized that I needed to redesign my board logic, offloading software components into hardware ones to make the system more efficient. Because of this I redesigned the battery monitor, brake detection, and turn signal flasher.
 
-<img src="https://github.com/user-attachments/assets/bf8bae29-f479-4160-9b8c-491e7096c862" width="200">
+<img src="https://github.com/user-attachments/assets/bf8bae29-f479-4160-9b8c-491e7096c862" width="300">
 
 The current version is building off the working principles of the second version and the experience I gained using Kicad to make the board more user friendly. I added jumpers to switch any part of the board from built-in analog control to customizable digital control that a team could configure for their car in their way. I also eliminated the power management board and integrated everything into 1 main board by cutting down on unnecessary features that weren't yet requested by any users. Finally I made sure the dimensions and on device specs of the PiHAT were compliant with the Pi foundations HAT requirements and made the board double side with common off the shelf components so it’s even easier for a team to create. 
 
-<img src="https://github.com/user-attachments/assets/74220aa1-d73b-4a5f-b92a-4fd972da86ba" width="200">
+<img src="https://github.com/user-attachments/assets/74220aa1-d73b-4a5f-b92a-4fd972da86ba" width="300">
 
 ## CAD Developments 
 ***Improving first year designs***
@@ -27,19 +27,19 @@ The current version is building off the working principles of the second version
 
 A recurring issue we would have as a team was that wheel adapters would shift, preventing the wheels from making a smooth circular rotation. Also motor mounts and mounting tabs would be out of alignment with the tabs also breaking off after certain use. The first year I had designed a motor mount for an ME1305, however the mount was way too heavy and wasn't perfectly inline with the driven gear. This alignment issue caused the chain to work its way off of the drive gear or just cause excessive chain wear. To make another improvement on the things I had designed from the first year, I created a completely new motor mount from the ground up with input from one of the main metal workers on our team. 
 
-<img src="https://github.com/user-attachments/assets/32ac9458-eb37-4908-8ee9-f1f4219c0748" width="200">
-<img src="https://github.com/user-attachments/assets/3f7fefa1-f179-4cf6-a2c9-149eceacddd0" width="200">
+<img src="https://github.com/user-attachments/assets/32ac9458-eb37-4908-8ee9-f1f4219c0748" width="300">
+<img src="https://github.com/user-attachments/assets/3f7fefa1-f179-4cf6-a2c9-149eceacddd0" width="300">
 
 first version and prototype of the motor mount
 
 The final design had 2 main parts allowing the motor to be moved in the x and y direction to find the best alignment with the driven gear. This solution was ideal since it allowed us to just reset the mount positioning if any changes were made to the part of the car it was fixed to or the axle that the driven gear was attached to. I then sent these files to be water-jet out of metal for free. Because the only available material was ¼” steel I made the motor mount as lightweight as possible by removing as much metal as possible while keeping the mount strong. This is why the final design looks like a skeleton.  
 
-<img src="https://github.com/user-attachments/assets/774faba3-69ba-49a7-bf85-dbeb4c99a1af" width="200">
+<img src="https://github.com/user-attachments/assets/774faba3-69ba-49a7-bf85-dbeb4c99a1af" width="300">
 
 To create wheel adapters I designed every component to be as lightweight as possible which also meant designing them with the least amount of parts. Another criteria was making the adapters easily accessible since many of the older adapters had placed the mating bolt pattern in a way where certain bolts would be directly behind wheel spokes making them incredibly annoying to adjust or remove. 
 
-<img src="https://github.com/user-attachments/assets/e7c9185e-d876-4ee9-999d-00f2a1bec23d" width="200">
+<img src="https://github.com/user-attachments/assets/e7c9185e-d876-4ee9-999d-00f2a1bec23d" width="300">
 
 Lastly for the mounting tabs, I had written a simple OpenSCAD script to create parametric mounting tabs as we needed them. Before this we would hand make them out of flat bar which could take an unnecessarily long amount of time for tabs that weren't consistent enough for aligned bolt holes. While the OpenSCAD script worked, I had also created a Fusion file which is what we ended up waterjetting. 
 
-<img src="https://github.com/user-attachments/assets/7359dee2-41c8-4ce8-9504-b2ece805f5f9" width="200">
+<img src="https://github.com/user-attachments/assets/7359dee2-41c8-4ce8-9504-b2ece805f5f9" width="350">
