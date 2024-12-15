@@ -1,9 +1,7 @@
-# Solar Car
-A comprehensive breakdown of my role inside the Blazin Bulldogs solar car team. 
+#Solar Car
 
-
-# aux kit
-*** One of , if not the first open source solar car auxiliary framework
+#aux kit
+***One of , if not the first open source solar car auxiliary framework
 
 After my first experience participating in the national solar car challenge in Texas, I gained some new insight about our auxiliary system. Namely it was unreliable, wires were often hard to find and would unknowingly rip out of connections. Any task that involved adding in new components like turn signal flashers or connecting bus bars would usually be a task so unnecessarily complicated, days would sometimes be lost.
 
@@ -23,8 +21,8 @@ The current version is building off the working principles of the second version
 
 ![Screenshot 2024-12-14 190422](https://github.com/user-attachments/assets/74220aa1-d73b-4a5f-b92a-4fd972da86ba)
 
-# CAD Developments 
-*** Improving first year designs
+#CAD Developments 
+***Improving first year designs
 
 
 A recurring issue we would have as a team was that wheel adapters would shift, preventing the wheels from making a smooth circular rotation. Also motor mounts and mounting tabs would be out of alignment with the tabs also breaking off after certain use. The first year I had designed a motor mount for an ME1305, however the mount was way too heavy and wasn't perfectly inline with the driven gear. This alignment issue caused the chain to work its way off of the drive gear or just cause excessive chain wear. To make another improvement on the things I had designed from the first year, I created a completely new motor mount from the ground up with input from one of the main metal workers on our team. 
