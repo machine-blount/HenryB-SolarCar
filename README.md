@@ -1,6 +1,6 @@
 # Solar Car
 
-## aux kit
+## aux-kit
 ***One of , if not the first open source solar car auxiliary framework***
 
 After my first experience participating in the national solar car challenge in Texas, I gained some new insight about our auxiliary system. Namely it was unreliable, wires were often hard to find and would unknowingly rip out of connections. Any task that involved adding in new components like turn signal flashers or connecting bus bars would usually be a task so unnecessarily complicated, days would sometimes be lost.
