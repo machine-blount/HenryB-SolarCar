@@ -17,7 +17,7 @@ I had endless issues with monitoring everything on the car and because of this t
 
 <img src="https://github.com/user-attachments/assets/bf8bae29-f479-4160-9b8c-491e7096c862" width="300">
 
-The current version is building off the working principles of the second version and the experience I gained using Kicad to make the board more user friendly. I added jumpers to switch any part of the board from built-in analog control to customizable digital control that a team could configure for their car in their way. I also eliminated the power management board and integrated everything into 1 main board by cutting down on unnecessary features that weren't yet requested by any users. Finally I made sure the dimensions and on device specs of the PiHAT were compliant with the Pi foundations HAT requirements and made the board double side with common off the shelf components so it’s even easier for a team to create. 
+The current version is building off the working principles of the second version and the experience I gained using Kicad to make the board more user friendly. I added jumpers to switch any part of the board from built-in analog control to customizable digital control that a team could configure for their car in their way. I also eliminated the power management board and integrated everything into 1 main board by cutting down on unnecessary features that weren't yet requested by any users. Finally I made sure the dimensions and on device specs of the PiHAT were compliant with the Pi foundations HAT requirements and made the board double sided with common off the shelf components so it’s even easier for a team to make themselves. 
 
 <img src="https://github.com/user-attachments/assets/74220aa1-d73b-4a5f-b92a-4fd972da86ba" width="300">
 
